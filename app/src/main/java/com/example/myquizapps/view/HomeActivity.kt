@@ -18,7 +18,7 @@ import com.example.myquizapps.R
 import com.example.myquizapps.model.Question
 import com.example.myquizapps.utils.Resource
 import com.example.myquizapps.utils.TokenManager
-import com.example.viewmodel.quizViewModel
+import com.example.myquizapps.viewmodel.quizViewModel
 import com.google.android.material.button.MaterialButton
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
