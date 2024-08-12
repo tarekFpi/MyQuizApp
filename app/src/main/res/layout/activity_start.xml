@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apptheme"
+    tools:context=".view.StartActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/menu"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/notification"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/_4sdp"
+        android:paddingRight="@dimen/_4sdp"
+        android:id="@+id/relative3"
+        android:layout_below="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_140sdp"
+                android:src="@drawable/im3"/>
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="@dimen/_63sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/im4"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:src="@drawable/im1"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_below="@+id/relative3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="JRF Sunday’s"
+            android:fontFamily="@font/lato"
+            android:textSize="@dimen/_28sdp"
+            android:textColor="#FFFFFF"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Supper Quiz"
+            android:fontFamily="@font/lato"
+            android:textSize="@dimen/_35sdp"
+            android:textColor="#FFFFFF"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Play Super Quiz  earn 500 coin"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/lato"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/card_shap"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp">
+
+            <TextView
+                android:layout_marginTop="@dimen/_16sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                android:text="Tosay’s Quiz on"
+                android:fontFamily="@font/lato"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#1A1D24"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                android:text="General Knowledge"
+                android:fontFamily="@font/lato"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="#BE1E2D"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                android:text="The Quiz ends in"
+                android:fontFamily="@font/lato"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#777B84"
+                android:layout_height="wrap_content"/>
+
+          <LinearLayout
+              android:paddingLeft="@dimen/_8sdp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <androidx.cardview.widget.CardView
+                  android:layout_marginTop="@dimen/_8sdp"
+                  android:layout_width="@dimen/_80sdp"
+                  app:cardBackgroundColor="#CCCCE5"
+                  android:layout_height="@dimen/_60sdp">
+
+                  <LinearLayout
+                      android:gravity="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="2"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_20sdp"
+                          android:textColor="#090E18"
+                          android:layout_height="wrap_content"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="Hours"
+                          android:layout_marginTop="@dimen/_4sdp"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_13sdp"
+                          android:textColor="#777B84"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+              </androidx.cardview.widget.CardView>
+
+              <androidx.cardview.widget.CardView
+                  android:layout_marginLeft="@dimen/_12sdp"
+                  android:layout_marginTop="@dimen/_8sdp"
+                  android:layout_width="@dimen/_80sdp"
+                  app:cardBackgroundColor="#CCCCE5"
+                  android:layout_height="@dimen/_60sdp">
+
+                  <LinearLayout
+                      android:gravity="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="30"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_20sdp"
+                          android:textColor="#090E18"
+                          android:layout_height="wrap_content"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="Minute"
+                          android:layout_marginTop="@dimen/_4sdp"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_13sdp"
+                          android:textColor="#777B84"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+              </androidx.cardview.widget.CardView>
+
+              <androidx.cardview.widget.CardView
+                  android:layout_marginLeft="@dimen/_12sdp"
+                  android:layout_marginTop="@dimen/_8sdp"
+                  android:layout_width="@dimen/_80sdp"
+                  app:cardBackgroundColor="#CCCCE5"
+                  android:layout_height="@dimen/_60sdp">
+
+                  <LinearLayout
+                      android:gravity="center"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="50"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_20sdp"
+                          android:textColor="#090E18"
+                          android:layout_height="wrap_content"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="Seconds"
+                          android:layout_marginTop="@dimen/_4sdp"
+                          android:fontFamily="@font/lato"
+                          android:textSize="@dimen/_13sdp"
+                          android:textColor="#777B84"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+              </androidx.cardview.widget.CardView>
+          </LinearLayout>
+
+         <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextInputLayout_userPass"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:backgroundTint="#BE1E2D"
+                android:onClick="play_Quiz"
+                android:padding="@dimen/_12sdp"
+                app:cornerRadius="@dimen/_10sdp"
+                android:text="Play Quiz Now"
+                android:textAllCaps="true"
+               android:fontFamily="@font/lato"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
