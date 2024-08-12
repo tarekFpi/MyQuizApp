@@ -13,5 +13,4 @@ public  class  quizRepository@Inject constructor(private val apiService: ApiServ
 
    suspend fun qustionList() = apiService.getPost()
 
-
 }
